@@ -396,7 +396,7 @@ section {
 }
 
 
-.span-ope-city-1 {
+.span-opecity-1 {
     position: absolute;
     background-color: rgba(112, 237, 213, 0.5);
     height: 200px;
@@ -421,7 +421,7 @@ section {
     margin-bottom: 270px;
 }
 
-.span-ope-city-2 {
+.span-opecity-2 {
     position: absolute;
     background-color: rgba(83, 7, 8, 0.5);
     height: 200px;
@@ -448,7 +448,7 @@ section {
 }
 
 
-.span-ope-city-3 {
+.span-opecity-3 {
     position: absolute;
     background-color: rgba(120, 120, 118, 0.5);
     height: 200px;
@@ -477,7 +477,7 @@ section {
     margin-top: 150px;
 }
 
-.span-ope-city-4 {
+.span-opecity-4 {
     position: absolute;
     background-color: rgba(52, 50, 49, 0.5);
     height: 200px;
@@ -503,7 +503,7 @@ section {
     margin-top: 350px;
 }
 
-.span-ope-city-5 {
+.span-opecity-5 {
     position: absolute;
     background-color: rgba(183, 239, 162, 0.5);
     height: 200px;
@@ -529,7 +529,7 @@ section {
     margin-top: 350px;
 }
 
-.span-ope-city-4 {
+.span-opecity-4 {
     position: absolute;
     background-color: rgba(166, 188, 246, 0.5);
     height: 200px;
@@ -571,12 +571,12 @@ section {
           width: 300px;
     }
 
-    .span-ope-city-1,
-    .span-ope-city-2,
-    .span-ope-city-3,
-    .span-ope-city-4,
-    .span-ope-city-5,
-    .span-ope-city-6 {
+    .span-opecity-1,
+    .span-opecity-2,
+    .span-opecity-3,
+    .span-opecity-4,
+    .span-opecity-5,
+    .span-opecity-6 {
           height: 150px;
           width: 300px;
     }
