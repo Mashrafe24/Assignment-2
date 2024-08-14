@@ -282,3 +282,80 @@ section {
 
 
 /* Habit Section End */
+
+/* Run Section Start */
+.run-banner-main {
+    background-color: #222222;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 140px;
+}
+
+.run-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.run-img {
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 400px;
+
+}
+
+.run-first-text {
+    font-size: 40px;
+
+}
+
+.p-text {
+    font-size: 20px;
+}
+
+.btn-1-join {
+    background-color: #e74830;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 200px;
+    border-style: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+
+@media (max-width: 480px) {
+    .run-first-text {
+          font-size: 15px;
+    }
+
+    .run-div {
+          display: table-row;
+
+    }
+
+    .run-first-text {
+          font-size: 20px;
+    }
+
+    .run-img {
+          height: 200px;
+          max-width: 450px;
+          margin-left: 0;
+    }
+
+    .p-text {
+          font-size: 14px;
+    }
+
+    .btn-1-join {
+          width: 180px;
+          font-size: 14px;
+    }
+}
+
+
+/* Run Section End */
