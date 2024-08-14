@@ -197,3 +197,88 @@ section {
 
 
 /* Banner Section End */
+
+/* Habit Section Start */
+.habit-main-container {
+    width: 1240px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.habit-text {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 450px;
+    font-size: 40px;
+}
+
+.p-1 {
+    margin-left: 330px;
+    color: #746e6e;
+}
+
+.p-2 {
+    margin-left: 570px;
+    color: #746e6e;
+}
+
+.grid-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 60px;
+    gap: 150px;
+}
+
+.images {
+    border-radius: 100%;
+}
+
+.movement {
+    margin-left: 50px;
+}
+
+.movement-2 {
+    margin-left: 70px;
+}
+
+.movement-3 {
+    margin-left: 60px;
+}
+
+.span-1-teg {
+    margin-left: 20px;
+}
+
+
+
+@media (max-width: 480px) {
+    .habit-text {
+          font-size: 25px;
+    }
+
+    .p-1,
+    .p-2 {
+          font-size: 14px;
+    }
+
+    .grid-div {
+          grid-template-columns: 1fr;
+          gap: 15px;
+    }
+
+    .images {
+          max-width: 100px;
+    }
+
+    .movement,
+    .movement-2,
+    .movement-3,
+    .span-1-teg {
+          font-size: 14px;
+    }
+}
+
+
+
+/* Habit Section End */
